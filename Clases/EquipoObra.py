@@ -7,10 +7,11 @@ class EquipoObra:
 
     def iniciar(self):
         self.estado = "operativo"
-    
+        print(f"El equipo {self.nombre} ha sido iniciado")
 
     def detener(self):
         self.estado = "detenido"
+        print(f"El equipo {self.nombre} se ha detenido")
 
     def mostrarInformacion(self):
         print(f"Equipo: {self.nombre}")
